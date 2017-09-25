@@ -26,6 +26,9 @@ class ViewController: UIViewController {
                 title = "The List"
                 tableview.register(UITableViewCell.self,
                                    forCellReuseIdentifier: "Cell")
+                
+                
+                
         }
 
         override func didReceiveMemoryWarning() {
